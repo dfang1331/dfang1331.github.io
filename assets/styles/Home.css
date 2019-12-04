@@ -1,0 +1,87 @@
+.topbar{
+  background-color: #708090;
+  overflow: hidden;
+}
+
+.topbar a {
+  float:left;
+  color: #F3F5F8;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.topbar a:hover{
+  background-color: #DCDCDC;
+  color: black;
+}
+
+.container{
+  width:auto;
+  margin: 30px;
+  display: block;
+  position:relative;
+  top:10px;
+  bottom:100px;
+}
+
+#question{
+  font-size: 50px;
+  letter-spacing: normal;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#begin{
+  font-size: 30px;
+  text-decoration: underline;
+  font-style: oblique;
+  color: #7d7675;
+  font-family: 'Source Sans Pro', sans-serif;
+  left: 5px;
+}
+#bio{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  height:130px;
+  width:1000px;
+}
+
+#pic{
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top:150px;
+  right:0px;
+  overflow: hidden;
+}
+
+#contr{
+  font-size: 30px;
+  text-decoration: underline;
+  font-style: oblique;
+  color: #7d7675;
+  font-family: 'Source Sans Pro', sans-serif;
+  position: relative;
+  top:180px;
+  left: 350px;
+}
+
+#bio2{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  height:130px;
+  width:1000px;
+  position: relative;
+  top:180px;
+  left: 350px;
+  bottom:100px;
+}
+
+#pic2{
+  width:250px;
+  height:198px;
+  border-radius: 15px 15px 15px 15px;
+  overflow: hidden;
+}
